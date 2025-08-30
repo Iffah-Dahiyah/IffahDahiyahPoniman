@@ -1,0 +1,10 @@
+p.then(value => console.log(value));
+p.catch(error => console.log(error));
+p.then(value => console.log(value));
+p.then(value => console.log(value.name));
+p.catch(error => console.log(error));
+p.then(value => console.log(value * 2));
+p.then(value => console.log(value * 2));
+p.catch(() => 0).then(value => console.log(value));
+Promise.all(promises).then(values => console.log(values));
+then(value => console.log(value));
